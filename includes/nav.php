@@ -17,47 +17,6 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav ml-auto navbar-list align-items-center">
                               <li class="nav-item nav-icon dropdown">
-                                  <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton2"
-                                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                          stroke-linejoin="round" class="feather feather-mail">
-                                          <path
-                                              d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                          </path>
-                                          <polyline points="22,6 12,13 2,6"></polyline>
-                                      </svg>
-                                      <span class="bg-primary"></span>
-                                  </a>
-                                  <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                      <div class="card shadow-none m-0">
-                                          <div class="card-body p-0 ">
-                                              <div class="cust-title p-3">
-                                                  <div class="d-flex align-items-center justify-content-between">
-                                                      <h5 class="mb-0">All Messages</h5>
-                                                  </div>
-                                              </div>
-                                              <div class="px-3 pt-0 pb-0 sub-card">
-                                                  <a href="#" class="iq-sub-card">
-                                                      <div class="media align-items-center cust-card py-3 border-bottom">
-                                                          <div class="">
-                                                              <img class="avatar-50 rounded-small"
-                                                                  src="../../assets/images/user/01.jpg" alt="01">
-                                                          </div>
-                                                          <div class="media-body ml-3">
-                                                              <div class="d-flex align-items-center justify-content-between">
-                                                                  <h6 class="mb-0">Emma Watson</h6>
-                                                                  <small class="text-dark"><b>12 : 47 pm</b></small>
-                                                              </div>
-                                                              <small class="mb-0">Lorem ipsum dolor sit amet</small>
-                                                          </div>
-                                                      </div>
-                                                  </a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="nav-item nav-icon dropdown">
                                   <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton"
                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
