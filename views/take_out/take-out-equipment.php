@@ -359,7 +359,7 @@ require ("../../config/db-config.php");
                     <div class="card">
                         <div class="card-header d-flex justify-content-between">
                             <div class="header-title">
-                                <h4 class="card-title">Add Equipment</h4>
+                                <h4 class="card-title">Take Out Equipment</h4>
                             </div>
                         </div>
                         <div class="card-body">

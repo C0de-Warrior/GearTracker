@@ -1,5 +1,3 @@
-<body>
-    <div class="wrapper">
       <div class="iq-sidebar  sidebar-default ">
           <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
               <a href="../dashboard/main-dash.php" class="header-logo">
@@ -66,5 +64,3 @@
               </nav>
             </div>
         </div>
-    </div>
-</body>
