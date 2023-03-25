@@ -339,7 +339,7 @@ require ("../../config/db-config.php");
                         </div>
                     </div>
                     <div class="card-body">
-                        <form action="https://templates.iqonic.design/posdash/html/backend/page-list-product.html" data-toggle="validator">
+                        <form action="../../controllers/add-equipment.php" data-toggle="validator">
                             <div class="row">
                                 <div class="col-md-6">                      
                                     <div class="form-group">

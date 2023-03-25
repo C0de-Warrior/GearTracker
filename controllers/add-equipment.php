@@ -8,10 +8,10 @@ if (isset($_POST['submit'])){
     $code =$_POST['code'];
     $equipment = $_POST['equipment'];
     $quantity = $_POST['quantity'];
-    //$id = $_POST['id'];
+    $sport = $_POST['type'];
     //$passw = $_POST['password'];
 
-    $query = "INSERT INTO `equipment`(`code`, `name`, /*`sport`,*/ `quanity`/*, `available`, `Sport`*/) VALUES ('$code','$name',' $quantity'/*,'$number','$passw','$sport'*/)";
+    $query = "INSERT INTO `equipment`(`code`, `name`, `sport`, `quanity`/*, `available`, `Sport`*/) VALUES ('$code','$name','$sport',' $quantity'/*,'$number','$passw'*/)";
 
     $request = mysqli_query($conn, $query);
 
