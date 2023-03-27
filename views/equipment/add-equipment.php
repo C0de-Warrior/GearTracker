@@ -371,8 +371,8 @@ require ("../../config/db-config.php");
                                 </div> 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Equipment *</label>
-                                        <input type="text" name="equipment" class="form-control" placeholder="Ball" data-errors="Please Enter Code." required>
+                                        <label>Quantity Available *</label>
+                                        <input type="text" name="equipment" class="form-control" placeholder="Enter Quantity" data-errors="Please Enter Code." required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">                                    
@@ -382,11 +382,11 @@ require ("../../config/db-config.php");
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                               <!-- IMAGE  <div class="col-md-12">
+                               <div class="col-md-12">
                                     <div class="form-group">
-                                        <label>Image</label>
-                                        <input type="file" class="form-control image-file" name="pic" accept="image/*">
-                                    </div> -->
+                                        <label> Equipment Description</label>
+                                        <input type="text" name="description" class="form-control">
+                                    </div> 
                                 </div>
                             </div>                            
                             <button type="submit" class="btn btn-primary mr-2">Add Equipment</button>
