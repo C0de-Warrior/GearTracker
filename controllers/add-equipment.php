@@ -6,16 +6,16 @@ if (isset($_POST['submit'])){
     // getting info from form
     $name = $_POST['name'];
     $code =$_POST['code'];
-    $sport = $_POST['type'];
-    $available = $_POST['quantity_available'];
+    $sport = $_POST['sport'];
+    $available = $_POST['available'];
     $quantity = $_POST['quantity'];
-    $
+    $description = $_POST['description'];
     
     
    
     //$passw = $_POST['password'];
 
-    $query = "INSERT INTO `equipment`(`code`, `name`, `sport`, `quanity`/*, `available`, `Sport`*/) VALUES ('$code','$name','$sport',' $quantity'/*,'$number','$passw'*/)";
+    $query = "INSERT INTO `equipment`(`name`,`code`,`sport`,`quantity_available`,`quanity`,`description`) VALUES ('$name','$code','$sport', $available,' $quantity','$description')";
 
     $request = mysqli_query($conn, $query);
 

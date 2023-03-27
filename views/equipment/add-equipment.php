@@ -358,7 +358,7 @@ require ("../../config/db-config.php");
                                 <div class="col-md-6"> 
                                     <div class="form-group">
                                         <label>Sport *</label>
-                                        <select name="type" class="selectpicker form-control" data-style="py-0">
+                                        <select name="sport" class="selectpicker form-control" data-style="py-0">
                                             <option value="Rugby">Rugby</option>
                                             <option value="Soccer">Soccer</option>
                                             <option value="Basketball">Basketball</option>
@@ -372,7 +372,7 @@ require ("../../config/db-config.php");
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Quantity Available *</label>
-                                        <input type="text" name="equipment" class="form-control" placeholder="Enter Quantity" data-errors="Please Enter Code." required>
+                                        <input type="text" name="available" class="form-control" placeholder="Enter Quantity" data-errors="Please Enter Code." required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">                                    
