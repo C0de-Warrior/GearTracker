@@ -385,7 +385,7 @@ require ("../../config/db-config.php");
                                <div class="col-md-12">
                                     <div class="form-group">
                                         <label> Equipment Description</label>
-                                        <input type="text" name="description" class="form-control">
+                                        <input type="text" name="description" placeholder="Description" class="form-control">
                                     </div> 
                                 </div>
                             </div>                            

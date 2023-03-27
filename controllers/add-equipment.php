@@ -9,6 +9,7 @@ if (isset($_POST['submit'])){
     $sport = $_POST['type'];
     $available = $_POST['quantity_available'];
     $quantity = $_POST['quantity'];
+    $
     
     
    
