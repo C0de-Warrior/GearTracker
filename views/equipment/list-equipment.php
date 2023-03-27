@@ -43,12 +43,12 @@ require ("../../config/db-config.php");
                 <table class="data-table table mb-0 tbl-server-info">
                     <thead class="bg-white text-uppercase">
                         <tr class="ligth ligth-data">
-                            <th>Equipment</th>
-                            <th>Code</th>
+                            <th>Equipment ID</th>
+                            <th>Name</th>
                             <th>Sport</th>
-                            <th>Brand Name</th>
-                            <th>Available</th>
                             <th>Quantity</th>
+                            <th>Quantity Available</th>
+                            <th>Description</th>
                         </tr>
                     </thead>
                     <tbody class="ligth-body">

@@ -382,11 +382,11 @@ require ("../../config/db-config.php");
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
+                               <!-- IMAGE  <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Image</label>
                                         <input type="file" class="form-control image-file" name="pic" accept="image/*">
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>                            
                             <button type="submit" class="btn btn-primary mr-2">Add Equipment</button>

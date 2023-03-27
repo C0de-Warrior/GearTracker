@@ -6,9 +6,12 @@ if (isset($_POST['submit'])){
     // getting info from form
     $name = $_POST['name'];
     $code =$_POST['code'];
-    $equipment = $_POST['equipment'];
-    $quantity = $_POST['quantity'];
     $sport = $_POST['type'];
+    $available = $_POST['quantity_available'];
+    $quantity = $_POST['quantity'];
+    
+    
+   
     //$passw = $_POST['password'];
 
     $query = "INSERT INTO `equipment`(`code`, `name`, `sport`, `quanity`/*, `available`, `Sport`*/) VALUES ('$code','$name','$sport',' $quantity'/*,'$number','$passw'*/)";
